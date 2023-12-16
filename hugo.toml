@@ -2,3 +2,29 @@ baseURL = 'remakhdomi.xyz'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'photophobia'
+
+DefaultContentLanguage = "en"
+copyright = "Everything is mine"
+
+
+[params.navigation]
+help  = "Help"
+
+[Languages]
+[Languages.en]
+title = "My blog"
+weight = 1
+languageDirection = 'ltr'
+[Languages.en.params]
+linkedin = "english-link"
+
+[Languages.fa]
+copyright = "Tout est à moi"
+title = "بلاگ من"
+weight = 2
+languageDirection = 'rtl'
+
+[Languages.fa.params]
+linkedin = "reza.makhdomi"
+[Languages.fa.navigation]
+help  = "Aide"
